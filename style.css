@@ -1,0 +1,231 @@
+:root {
+    --color-orange: hsl(31, 77%, 52%);
+    --color-cyan-dark: hsl(184, 100%, 22%);
+    --color-cyan-darker: hsl(179, 100%, 13%);
+
+    --color-primary-white: hsla(0, 0%, 100%, 0.75);
+    --color-secondary-white: hsl(0, 0%, 95%);
+
+    --font-family-bold: 'Big Shoulders Display', cursive;
+    --font-family-regular: 'Lexend Deca', sans-serif;
+
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+
+    --border-radius: 0.252rem;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+body {
+    background-color: var(--color-secondary-white);
+    font-family: var(--font-weight-regular);
+    font-weight: var(--font-weight-regular);
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    justify-items: center;
+    min-height: 100vh;
+    margin: 4rem 3rem;
+}
+
+main {
+    max-width: 57.5rem;
+}
+
+.component-section {
+    max-width: 20.4375rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    color: hsl(0deg, 0%, 100%);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    flex-wrap: wrap;
+    min-height: 31.2844rem;
+}
+
+.componenet-container {
+    padding: 3rem;
+    flex: 1 1 18rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+}
+
+
+.container-style {
+    padding: 3rem 3.6rem;
+}
+
+.section-icon {
+    max-width: 4rem;
+    min-height: 2.5rem;
+}
+
+.sedan-container {
+    background-color: var(--color-orange);
+}
+
+.suv-container {
+    background-color: var(--color-cyan-dark);
+}
+
+.luxury-container {
+    background-color: var(--color-cyan-darker);
+}
+
+
+h2 {
+    color: var(--color-secondary-white);
+    font-weight: var(--font-weight-bold);
+    font-family: var(--font-family-bold);
+    font-size: 2.5rem;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-top: 2.19rem;
+    margin-bottom: 1.56rem;
+}
+
+.content-text {
+    color: var(--color-primary-white);
+    font-weight: var(--font-weight-regular);
+    font-family: var(--font-family-regular);
+    font-size: 0.9375rem;
+    line-height: 1.5625rem;
+    font-style: normal;
+    opacity: 0.75;
+    /* margin-bottom: 1.56rem; */
+    min-width: 14.437rem;
+}
+
+.content-text-style {
+    margin-left: 3.03rem;
+}
+
+.button {
+    border: none;
+    border-radius: 1.5625rem;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-family: var(--font-family-regular);
+    font-weight: var(--font-weight-regular);
+    cursor: pointer;
+    padding: 0.69rem 1.97rem 0.75rem 1.97rem;
+    margin-top: 1.56rem;
+    display: inline-block;
+}
+
+.button-sedan {
+    color: var(--color-orange);
+    background-color: var(--color-secondary-white);
+}
+
+.button-sedan:is(:hover, :focus) {
+    color: var(--color-secondary-white);
+    background-color: var(--color-orange);
+    outline: 1px solid var(--color-secondary-white);
+}
+
+.button-suv {
+    color: var(--color-cyan-dark);
+    background-color: var(--color-secondary-white);
+}
+
+.button-suv:is(:hover, :focus) {
+    color: var(--color-secondary-white);
+    background-color: var(--color-cyan-dark);
+    outline: 1px solid var(--color-secondary-white);
+}
+
+.button-luxury {
+    color: var(--color-cyan-darker);
+    background-color: var(--color-secondary-white);
+}
+
+.button-luxury:is(:hover, :focus) {
+    color: var(--color-secondary-white);
+    background-color: var(--color-cyan-darker);
+    outline: 1px solid var(--color-secondary-white);
+}
+
+/* @media (min-width: 800px) {
+    .component-container {
+        display: flex;
+        flex: 1;
+        overflow: hidden;
+        justify-content: center;
+    }
+
+    .component-container {
+        border-radius: var(--border-radius);
+    }
+
+    .button {
+       margin: 1.9rem 2rem;
+    }
+
+.button-sedan {
+    margin-top: 2rem;
+}
+
+
+} */
+
+/* @media (max-width: 375px) {
+    .sedan-container {
+        background-color: var(--color-orange);
+        border-top-right-radius: var(--border-radius);
+        border-top-left-radius: var(--border-radius);
+    }
+
+    .luxury-container {
+        background-color: var(--color-cyan-darker);
+        border-bottom-right-radius: var(--border-radius);
+        border-bottom-left-radius: var(--border-radius);
+    }
+
+
+} */
