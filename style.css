@@ -76,22 +76,13 @@ main {
     max-width: 20.4375rem;
     margin-bottom: 0.5rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     color: hsl(0deg, 0%, 100%);
     border-radius: 0.5rem;
     overflow: hidden;
     flex-wrap: wrap;
     min-height: 31.2844rem;
 }
-
-.componenet-container {
-    padding: 3rem;
-    flex: 1 1 18rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1.7rem;
-}
-
 
 .container-style {
     padding: 3rem 3.6rem;
@@ -130,12 +121,11 @@ h2 {
     color: var(--color-primary-white);
     font-weight: var(--font-weight-regular);
     font-family: var(--font-family-regular);
-    font-size: 0.9375rem;
-    line-height: 1.5625rem;
+    font-size: 0.938rem;
+    line-height: 1.563rem;
     font-style: normal;
     opacity: 0.75;
-    /* margin-bottom: 1.56rem; */
-    min-width: 14.437rem;
+    /* min-width: 14.437rem; */
 }
 
 .content-text-style {
