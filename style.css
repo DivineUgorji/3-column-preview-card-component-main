@@ -26,7 +26,7 @@
 }
 
 body {
-    line-height: 1.5;
+    line-height: 1.5rem;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -60,23 +60,22 @@ body {
     background-color: var(--color-secondary-white);
     font-family: var(--font-weight-regular);
     font-weight: var(--font-weight-regular);
+    font-size: 0.938rem;
     display: flex;
     flex-direction: column;
     place-items: center;
     justify-items: center;
     min-height: 100vh;
-    margin: 4rem 3rem;
 }
 
 main {
     max-width: 57.5rem;
+    margin: 1.3rem;
 }
 
-.component-section {
-    max-width: 20.4375rem;
-    margin-bottom: 0.5rem;
+.component-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     color: hsl(0deg, 0%, 100%);
     border-radius: 0.5rem;
     overflow: hidden;
@@ -84,8 +83,12 @@ main {
     min-height: 31.2844rem;
 }
 
-.container-style {
-    padding: 3rem 3.6rem;
+.component-card {
+    display: flex;
+    flex: 1 1 18rem;
+    flex-direction: column;
+    gap: 1.7rem;
+    padding: 3rem;
 }
 
 .section-icon {
@@ -93,16 +96,16 @@ main {
     min-height: 2.5rem;
 }
 
-.sedan-container {
-    background-color: var(--color-orange);
+.component-card[data-item-type="sedan-background"] {
+    background: var(--color-orange);
 }
 
-.suv-container {
-    background-color: var(--color-cyan-dark);
+.component-card[data-item-type="suv-background"] {
+    background: var(--color-cyan-dark);
 }
 
-.luxury-container {
-    background-color: var(--color-cyan-darker);
+.component-card[data-item-type="luxury-background"] {
+    background: var(--color-cyan-darker);
 }
 
 
@@ -121,15 +124,9 @@ h2 {
     color: var(--color-primary-white);
     font-weight: var(--font-weight-regular);
     font-family: var(--font-family-regular);
-    font-size: 0.938rem;
     line-height: 1.563rem;
     font-style: normal;
     opacity: 0.75;
-    /* min-width: 14.437rem; */
-}
-
-.content-text-style {
-    margin-left: 3.03rem;
 }
 
 .button {
@@ -181,41 +178,12 @@ h2 {
     outline: 1px solid var(--color-secondary-white);
 }
 
-/* @media (min-width: 800px) {
-    .component-container {
-        display: flex;
-        flex: 1;
-        overflow: hidden;
-        justify-content: center;
-    }
-
-    .component-container {
-        border-radius: var(--border-radius);
-    }
-
-    .button {
-       margin: 1.9rem 2rem;
-    }
-
-.button-sedan {
-    margin-top: 2rem;
+.attribution {
+  font-size: 11px;
+  text-align: center;
 }
 
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
 
-} */
-
-/* @media (max-width: 375px) {
-    .sedan-container {
-        background-color: var(--color-orange);
-        border-top-right-radius: var(--border-radius);
-        border-top-left-radius: var(--border-radius);
-    }
-
-    .luxury-container {
-        background-color: var(--color-cyan-darker);
-        border-bottom-right-radius: var(--border-radius);
-        border-bottom-left-radius: var(--border-radius);
-    }
-
-
-} */
