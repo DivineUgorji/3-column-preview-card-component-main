@@ -2,7 +2,7 @@
 
 Thanks for checking out this front-end coding challenge 🙏.
 
-This is a solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL:](https://github.com/DivineUgorji/3-column-preview-card-component-main)
+- [Live Site URL:](https://3-column-preview-card-component-dd.netlify.app/)
 
 ### Built with
 
@@ -45,27 +45,24 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 
-
 ### What I learned
 
-- More ways of utilising CSS flexbox. 
-- Practised writing clean code and avoid repeating myself as much as possible. 
-
+- More ways of utilising CSS flexbox.
+- Practised writing clean code and avoid repeating myself as much as possible.
 
 ### Continued development
 
-# I need to read up on the following: 
+# I need to read up on the following:
+
 - CSS Grid
 - CSS positioning
-- BEM & CUBE naming conventions 
-
+- BEM & CUBE naming conventions
 
 ## Author
 
-- Website - [Divine Ugorji](https://www.github.com/codesuperstarr)
-- Frontend Mentor - [@codesuperstarr](https://www.frontendmentor.io/profile/codesuperstarr)
-- Twitter - [@Divine__Ugorji](https://www.twitter.com/Divine__Ugorji)
-
+- Website - [Divine Ugorji](https://www.github.com/DivineUgorji)
+- Frontend Mentor - [@codesuperstarr](https://www.frontendmentor.io/profile/DivineUgorji)
+- Twitter - [@Divine\_\_Ugorji](https://www.twitter.com/Divine__Ugorji)
 
 ## Acknowledgments
 
